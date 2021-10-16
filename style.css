@@ -1,0 +1,18 @@
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDBWdLj9efA1m2m0g8KgZPO8d2HtCVz3kaCYrJtY1XhXhZzlhjflHBIf_phCOFx7ONeb8&usqp=CAU);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+h3{
+    font-size: 25px !important;
+}
+.btn-primary:hover{
+    background-color: red;
+}
